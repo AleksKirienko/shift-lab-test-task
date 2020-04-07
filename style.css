@@ -1,0 +1,36 @@
+.table {
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.col {
+    display: block;
+    width: 100%;
+}
+
+.cell {
+    display: block;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.cell:hover {
+    background: #c9c4fd;
+    cursor: pointer;
+}
+
+.cell:first-child {
+    background: #f9b7b7;
+}
+
+.cell:first-child:hover {
+    color: #3146ff;
+    background: #b7f9bb;
+}
+
+@media (max-width: 420px) {
+    .table {
+        display: block;
+    }
+}

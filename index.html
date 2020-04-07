@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="/style.css"/>
+    <title>Document</title>
+</head>
+<body>
+<div class="table" id="table"></div>
+<br>
+
+<form id="searchForm">
+    <label for="searchBy">Search by</label>
+    <select id='searchBy'></select>
+    <br>
+    <br>
+    <label for="searchKey">Enter key</label>
+    <input id='searchKey' type="text">
+    <input type="submit" id="search"/>
+    <p>Found <span id="count">0</span> coincidences</p>
+</form>
+
+<script src="/js/utils.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
