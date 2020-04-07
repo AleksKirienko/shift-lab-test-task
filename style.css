@@ -15,6 +15,10 @@
     border: 1px solid #ccc;
 }
 
+.checkfound {
+    background: red;
+}
+
 .cell:hover {
     background: #c9c4fd;
     cursor: pointer;
